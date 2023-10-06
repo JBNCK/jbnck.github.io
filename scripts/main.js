@@ -5,7 +5,7 @@ function redirectHome() {
 function initializeWebsite() {
     console.log("Setting variables and attributes...")
     menuExpanded = 0;
-    maintenanceModeEnabled = 0;
+    maintenanceModeEnabled = 1;
     //var element = document.getElementById("menu_content");
     //element.style.opacity = "0";
     $(function(){
@@ -39,7 +39,28 @@ function maintenanceMode() {
         console.log("Website content left visible")
     }
 }
-
+function removeMaintenanceModeRestriction() {
+    console.log("Showing password prompt.")
+    var userInput = prompt("Very secure not hard coded password:");
+    if (userInput == "oerel") {
+        console.log("User entered correct password.")
+        setTimeout( () =>{
+            var element = document.getElementById("maintenanceModeWallContent")
+            element.style.opacity = "0";
+            setTimeout( () =>{
+                var element = document.getElementById("maintenanceModeWall")
+                element.setAttribute("style", "height: 0;")
+                var element = document.getElementById("maintenanceModeWallContent")
+                element.setAttribute("style", "height: 0;")
+                element.setAttribute("style", "visibility: hidden;")
+            }, 500);
+            console.log("Maintenance mode wall hidden.")
+        }, 200);
+    }
+    else {
+        console.log("User entered wrong password.")
+    }
+}
 function menu() {
     if (menuExpanded == 0) {
         var element = document.getElementById("menu")

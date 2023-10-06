@@ -244,3 +244,9 @@
 .event_description {
     color: #191b24;
 }
+
+.button {
+    background-color: #191b24;
+    color: white;
+    padding: 10px;
+}
