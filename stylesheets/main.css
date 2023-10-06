@@ -27,6 +27,9 @@ main a {
     color: #191b24;
     text-decoration: none;
 }
+main span a {
+    color: rgb(85, 85, 255);
+}
 h1 {
     font-family: 'Courier New', monospace;
     font-weight: 100;
@@ -36,4 +39,7 @@ h3 {
 }
 p {
     text-align: justify;
+}
+a {
+    text-decoration: none;
 }

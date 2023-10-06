@@ -5,7 +5,7 @@ function redirectHome() {
 function initializeWebsite() {
     console.log("Setting variables and attributes...")
     menuExpanded = 0;
-    maintenanceModeEnabled = 1;
+    maintenanceModeEnabled = 0;
     //var element = document.getElementById("menu_content");
     //element.style.opacity = "0";
     $(function(){

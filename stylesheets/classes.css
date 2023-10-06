@@ -17,7 +17,9 @@
 .maintenance_mode_wall_content img {
     width: 200px;
 }
-
+.link {
+    color: rgb(85, 85, 255);
+}
 .menu {
     position: fixed;
     width: 100%;
