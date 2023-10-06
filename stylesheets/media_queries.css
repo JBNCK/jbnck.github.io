@@ -1,0 +1,39 @@
+@media screen and (max-width: 700px) {
+    .navbar_mobile {
+        display: block;
+    }
+    .navbar_desktop {
+        display: none;
+    }
+    .banner_text {
+        top: 50%;
+        left: 5%;
+        right: 8%;
+        /*-ms-transform: translate(-50%);
+        transform: translate(-50%);*/
+    }
+    .banner_text_header {
+        font-size: 42px;
+    }
+    .banner_text_subheader {
+        font-size: medium;
+    }
+}
+@media screen and (max-width: 400px) {
+    main {
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+}
+@media screen and (min-width: 401px) and (max-width: 700px) {
+    main {
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+}
+@media screen and (min-width: 701px) {
+    main {
+        padding-left: 20%;
+        padding-right: 20%;
+    }
+}

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="de">
+    <head>
+        <title>Startseite - Jan Biernacik</title>
+        <link rel="icon" href="../media/favicon.jpg">
+        <link rel="stylesheet" href="../stylesheets/main.css">
+        <link rel="stylesheet" href="../stylesheets/animations.css">
+        <link rel="stylesheet" href="../stylesheets/classes.css">
+        <link rel="stylesheet" href="../stylesheets/ids.css">
+        <link rel="stylesheet" href="../stylesheets/media_queries.css">
+        <script src="../libraries/jquery.js"></script>
+        <script src="../scripts/main.js"></script>
+        <meta name="viewport" content="width=device-width" ,="" initial-scale="1.0">
+        <meta name="theme-color" content="#191b24">
+    </head>
+    <body onload="initializeWebsite(); maintenanceMode();">
+        <header>
+            <div id="sharedMaintenanceModeWall"></div>
+            <div id="sharedMenu"></div>
+            <div class="navbar navbar_desktop">
+                <img onclick="window.location.href = '../de'" class="navbar_logo" alt="logo" src="../media/jan_biernacik.png">
+                <div class="navbar_links_box">
+                    <a href="../de/"><div class="navbar_links navbar_links_current">
+                        Startseite
+                    </div></a>
+                    <a href="projekte"><div class="navbar_links">
+                        Projekte
+                    </div></a>
+                    <a href="kontakt"><div class="navbar_links">
+                        Kontakt
+                    </div></a>
+                </div>
+                <img onclick="window.location.href = 'https://www.github.com/JBNCK'" class="navbar_icon" alt="github_logo" src="../media/github_logo.png">
+            </div>
+            <div id="sharedMobileNavbar">
+        </header>
+        <div class="banner_box" id="sharedLargeBanner"></div>
+        <main>
+            <h1>Moin!</h1>
+            <p>Ich bin Jan, 16 Jahre alt und lebe in Hamburg. Ich komme aus Polen, daher beherrsche ich Deutsch, Polnisch und Englisch fließend. Ein bisschen Spanisch kann ich auch. In Sachen Programmierung habe ich bisher nur Python gelernt, da ich mich auf die Webentwicklung konzentriere. Mein Interesse an Technik besteht schon seit Langem, aber intensiv beschäftige ich mich erst seit etwa 2 Jahren hobbymäßig mit der Webentwicklung. Diese von mir erstellte Website hilft mir dabei, meine Fähigkeiten in diesem Bereich zu verbessern.</p>
+            <h1>Lebenslauf</h1>
+            <div class="timeline">
+                <div class="event">
+                    <div class="event_date">Aktuell</div>
+                    <div class="event_title">Gymnasialoberstufe (G8-Abitur)</div>
+                    <div class="event_description">Ich besuche derzeit die 11. Klasse und werde mein Abitur voraussichtlich im Sommer 2025 absolvieren.</div>
+                </div>
+                <div class="event">
+                    <div class="event_date">2023</div>
+                    <div class="event_title">Informatikpraktikum bei Fielmann</div>
+                </div>
+                <div class="event">
+                    <div class="event_date">2022</div>
+                    <div class="event_title">Informatikpraktikum bei der Bundeswehr</div>
+                </div>
+            </div>
+            <h1>Projekte</h1>
+            <p>Bald wird hier eine Ansicht meiner Projekte erscheinen.</p>
+        </main>
+        <footer>
+            <div id="sharedFooter"></div>
+        </footer>
+    </body>
+</html>

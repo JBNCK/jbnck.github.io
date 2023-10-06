@@ -1,0 +1,13 @@
+.maintenance_mode_wall {
+    transition: all 1s;
+}
+.maintenance_mode_wall_content {
+    transition: all 1s;
+}
+
+.menu {
+    transition: all .5s;
+}
+.menu_content {
+    transition: all .5s;
+}
