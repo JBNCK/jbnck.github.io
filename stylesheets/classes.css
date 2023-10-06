@@ -98,7 +98,7 @@
 }
 .navbar_links_box {
     float: right;
-    padding-right: 30px;
+    padding-right: 0;
 }
 .navbar_icon {
     height: 20px;
@@ -109,7 +109,7 @@
     cursor: pointer;
 }
 .navbar_icon_mobile_menu {
-    margin-right: 38px;
+    margin-right: 0;
 }
 .navbar_logo {
     height: 38px;
