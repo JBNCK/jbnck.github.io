@@ -1,0 +1,315 @@
+.maintenance_mode_wall {
+    position: fixed;
+    width: 100%;
+    height: 0;
+    background-color: #191b24;
+    z-index: 3;
+}
+.maintenance_mode_wall_content {
+    color: white;
+    height: 0;
+    opacity: 0;
+    visibility: hidden;
+    align-items: center;
+    text-align: center;
+    padding-top: 80px;
+}
+.maintenance_mode_wall_content img {
+    width: 200px;
+}
+.link {
+    color: rgb(85, 85, 255);
+}
+.menu {
+    position: fixed;
+    width: 100%;
+    height: 0;
+    background-color: #191b24;
+    z-index: 2;
+    /*transition: all 1s;*/
+}
+.menu_content {
+    height: 0;
+    opacity: 0%;
+    visibility: hidden;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 80px;
+    /* transition: all 1s;*/
+}
+.menu_content_close_button {
+    position: absolute;
+    float: left;
+    bottom: 20vh;
+    left: 50%;
+    height: 20px;
+    align-self: center;
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+.menu_content_close_button:hover {
+    cursor: pointer;
+}
+.menu_content a {
+    color: white;
+    font-weight:menu;
+    font-size: x-large;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+}
+.menu_content hr {
+    border: #282831 1px solid;
+    width: 12%;
+}
+
+.navbar {
+    /*background: transparent;*/
+    top: 0;
+    width: 100%;
+    position: fixed;
+    padding: 15px;
+    /*opacity: 90%;*/
+    transition: all .15s;
+    z-index: 1;
+}
+.navbar_mobile {
+    display: none;
+}
+.navbar_links {
+    background-color: #191b24;
+    border: #191b24 solid 10px;
+    border-radius: 20px;
+    vertical-align: middle;
+    display: inline-flex;
+    vertical-align: middle;
+    max-width: 100px;
+    min-width: 100px;
+    justify-content: center;
+    align-items: center;
+    transition: all .1s;
+}
+.navbar_links_current {
+    background-color: white;
+    border: white solid 10px;
+    max-width: 120px;
+    min-width: 120px;
+    color: black;
+}
+.navbar_links_box {
+    float: right;
+    padding-right: 0;
+}
+.navbar_icon {
+    height: 20px;
+    float: right;
+    margin-right: 15px;
+    margin-top: 9px;
+    vertical-align: middle;
+    cursor: pointer;
+}
+.navbar_icon_mobile_menu {
+    margin-right: 0;
+}
+.navbar_logo {
+    height: 38px;
+    float: left;
+}
+.navbar a {
+    color: white;
+}
+
+.banner_box {
+    background-image: url("../media/banner_darkened.jpg");
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+}
+.banner {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: relative;
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+}
+.banner_text {
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    left: 15%;
+    color: white;
+    vertical-align: middle;
+}
+.banner_text_header {
+    font-size: 72px;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.banner_text_subheader {
+    font-size: large;
+    color: lightgrey;
+}
+.banner_text a {
+    display: block;
+}
+.banner_icon_arrow_down {
+    position: absolute;
+    float: left;
+    bottom: 8%;
+    left: 50%;
+    height: 15px;
+    align-self: center;
+    -ms-transform: translateX(-50%);                                                              
+}
+.banner_icon_arrow_down:hover {
+    cursor: pointer;
+}
+.banner_small_box_projects {
+    background-image: url("../media/banner_small_projects.jpg");
+    object-fit: cover;
+    background-size: cover;
+    background-position: center;
+}
+.banner_small_box_contact {
+    background-image: url("../media/banner_small_contact.jpg");
+    object-fit: cover;
+    background-size: cover;
+    background-position: center;
+}
+.banner_small_box_default {
+    background-color: #191b24;
+    object-fit: cover;
+    background-size: cover;
+    background-position: center;
+}
+.banner_small_box {
+    height: 220px;
+}
+.banner_small {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+}
+.banner_small_text {
+    position: absolute;
+    top: 116px;
+    left: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    color: white;
+    vertical-align: middle;
+}
+.banner_small_text_header {
+    font-size: 42px;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.timeline {
+    position: relative;
+    width: 100%;
+    margin: 20px auto;
+}
+.timeline:before {
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 2px;
+    background-color: #191b24;
+    left: 0px;
+    top: 0;
+}
+.event {
+    position: relative;
+    padding: 20px;
+}
+.event_date {
+    font-size: x-small;
+    margin-bottom: 2px;
+}
+.event_title {
+    font-size: x-large;
+    font-family: 'Courier New', monospace;
+    font-weight: 100;
+    padding: 0;
+    margin: 0;
+}
+.event_description {
+    color: #191b24;
+}
+
+.button {
+    background-color: #191b24;
+    color: white;
+    padding: 10px;
+}
+
+.title_with_button {
+    display: inline;
+}
+.title_with_button a {
+    display: inline;
+    position: absolute;
+    right: 20%;
+}
+.title_with_button h1 {
+    display: inline;
+}
+
+.photo_gallery {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap;
+    padding: 0;
+}
+.photo_gallery_column {
+    -ms-flex: 25%; /* IE10 */
+    flex: 25%;
+    max-width: 25%;
+    padding: 0;
+    position: relative;
+}
+.photo_gallery_column img {
+    margin: 0;
+    vertical-align: middle;
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    background-size: cover;
+    background-position: center;
+}
+
+.photo_gallery_overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #008CBA;
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+}
+.photo_gallery_overlay_text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
